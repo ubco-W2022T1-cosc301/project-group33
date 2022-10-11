@@ -1,4 +1,4 @@
-# Group YYY - {Short snappy Title of your project}
+# Group 33 - {Short snappy Title of your project}
 
 **Please remember to update this section**
 
@@ -15,6 +15,8 @@ Details for Milestone are available on Canvas (left sidebar, Course Project).
 {Add your stuff here}
 
 ## Describe your dataset in about 150-200 words
+
+This dataset, called Student Alcohol Consumption and created by UCI Machine Learning, consists of information regarding portuguese high school students. This information was collected from 2 public high schools, from 788 students in a math course and/or portuguese language course. Much of this information regards the student's academics, such as study time and grade numerics, and recreational behavior, such as extracurricular activities and weekend alcohol consumption. This dataset also encapsulates student demographics and students' family history. This data was gathered via survey, along with a few numerical attributes given from the school's reports (ex: term grades and student absences). The collection of this data was originally done by a portuguese professor who wanted to see the correlation between alcohol drinking and grades during 2005-2006. This dataset is now used on the UCI Machine Learning Archive. Its main purpose is to help students explore predictions using machine learning (ex: predicting students' final grades).
 
 **Please remember to update this section**
 
