@@ -17,7 +17,7 @@ This dataset is incredibly multifaceted, allowing each of us to find different p
 
 **Please remember to update this section**
 
-{Add your stuff here}
+
 
 ## Describe your dataset in about 150-200 words
 
@@ -25,7 +25,7 @@ This dataset, called Student Alcohol Consumption and created by UCI Machine Lear
 
 **Please remember to update this section**
 
-{Add your stuff here}
+
 
 ## Team Members
 
