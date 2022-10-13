@@ -32,7 +32,7 @@ This dataset, called Student Alcohol Consumption and created by UCI Machine Lear
 **Please remember to update this section**
 
 - Person 1: one sentence about you!
-- Person 2: one sentence about you!
+- Person 2: Hello! I am Madisyn Joyal and I am a 5th year microbiology student with a minor in psychology.
 - Person 3: one sentence about you!
 
 ## Images
