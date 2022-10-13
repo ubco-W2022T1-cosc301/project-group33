@@ -10,11 +10,6 @@ Details for Milestone are available on Canvas (left sidebar, Course Project).
 
 ## Describe your topic/interest in about 150-200 words
 
-This dataset is incredibly multifaceted, allowing each of us to find different points of interest within the same dataset. Collectively, our interest in this dataset encapsulates the connection between adolescence and alcohol within the high school environment. One aspect that our group specifically wants to explore is whether there is a connection between parental education status and alcohol consumption. Another question that our group wants to explore is whether participation in extracurricular activities affects a students likelihood to consume alcohol. Our last aspect that we are studying looks at student percentiles and alchohol consumption. We assume that there's a negative correlation, as students with higher academic percentiles tend to study more during times that other students are partying. With the information from this dataset, we can confirm whether this is true. Creating a user-facing dashboard for this dataset would be a smart decision. This is because the data is so multifaceted and relatable to the average person. Pressure to consume alcohol within high school is a universal universal experience that many can relate to.
-
-
-
-
 **Please remember to update this section**
 
 {Add your stuff here}
@@ -32,8 +27,8 @@ This dataset, called Student Alcohol Consumption and created by UCI Machine Lear
 **Please remember to update this section**
 
 - Person 1: one sentence about you!
-- Person 2: Hello! I am Madisyn Joyal and I am a 5th year microbiology student with a minor in psychology.
-- Person 3: one sentence about you!
+- Person 2: one sentence about you!
+- Person 3: I am Jyo Sahoo, a second year Computer Science student with a minor in Data Science.
 
 ## Images
 
