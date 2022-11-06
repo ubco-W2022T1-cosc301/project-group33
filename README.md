@@ -31,7 +31,7 @@ This dataset, called Student Alcohol Consumption and created by UCI Machine Lear
 
 **Please remember to update this section**
 
-- Person 1: one sentence about you!
+- Person 1: My name is Erem and I am a second year computer science student.
 - Person 2: Hello! I am Madisyn Joyal and I am a 5th year microbiology student with a minor in psychology.
 - Person 3: I am Jyo Sahoo, a second year Computer Science student with a minor in Data Science.
 
@@ -42,6 +42,10 @@ This dataset, called Student Alcohol Consumption and created by UCI Machine Lear
 {You can use this area for any images you want to include}
 
 <img src ="images/test.png" width="100px">
+
+###Test picture
+![my dog mazie](mazie1.jpeg)
+
 
 ## References
 
