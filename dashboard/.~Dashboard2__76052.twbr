@@ -1,0 +1,2094 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20223.22.1005.1835                               -->
+<workbook original-version='18.1' source-build='2022.3.0 (20223.22.1005.1835)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='student-mat' inline='true' name='federated.0q95elm0oldndg1bdef8y13a8xjx' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='student-mat' name='textscan.024hlks1ihe15u1a1dkbg1m2w2fu'>
+            <connection class='textscan' directory='/Users/madijoyal/Desktop/project-group33/data/raw' filename='student-mat.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.024hlks1ihe15u1a1dkbg1m2w2fu' name='student-mat.csv' table='[student-mat#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='string' name='school' ordinal='1' />
+            <column datatype='string' name='sex' ordinal='2' />
+            <column datatype='integer' name='age' ordinal='3' />
+            <column datatype='string' name='address' ordinal='4' />
+            <column datatype='string' name='famsize' ordinal='5' />
+            <column datatype='string' name='Pstatus' ordinal='6' />
+            <column datatype='integer' name='Medu' ordinal='7' />
+            <column datatype='integer' name='Fedu' ordinal='8' />
+            <column datatype='string' name='Mjob' ordinal='9' />
+            <column datatype='string' name='Fjob' ordinal='10' />
+            <column datatype='string' name='reason' ordinal='11' />
+            <column datatype='string' name='guardian' ordinal='12' />
+            <column datatype='integer' name='traveltime' ordinal='13' />
+            <column datatype='integer' name='studytime' ordinal='14' />
+            <column datatype='integer' name='failures' ordinal='15' />
+            <column datatype='string' name='schoolsup' ordinal='16' />
+            <column datatype='string' name='famsup' ordinal='17' />
+            <column datatype='string' name='paid' ordinal='18' />
+            <column datatype='string' name='activities' ordinal='19' />
+            <column datatype='string' name='nursery' ordinal='20' />
+            <column datatype='string' name='higher' ordinal='21' />
+            <column datatype='string' name='internet' ordinal='22' />
+            <column datatype='string' name='romantic' ordinal='23' />
+            <column datatype='integer' name='famrel' ordinal='24' />
+            <column datatype='integer' name='freetime' ordinal='25' />
+            <column datatype='integer' name='goout' ordinal='26' />
+            <column datatype='integer' name='Dalc' ordinal='27' />
+            <column datatype='integer' name='Walc' ordinal='28' />
+            <column datatype='integer' name='health' ordinal='29' />
+            <column datatype='integer' name='absences' ordinal='30' />
+            <column datatype='integer' name='G1' ordinal='31' />
+            <column datatype='integer' name='G2' ordinal='32' />
+            <column datatype='integer' name='G3' ordinal='33' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation type='collection'>
+          <relation connection='textscan.024hlks1ihe15u1a1dkbg1m2w2fu' name='student-mat.csv' table='[student-mat#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+              <column datatype='integer' name='F1' ordinal='0' />
+              <column datatype='string' name='school' ordinal='1' />
+              <column datatype='string' name='sex' ordinal='2' />
+              <column datatype='integer' name='age' ordinal='3' />
+              <column datatype='string' name='address' ordinal='4' />
+              <column datatype='string' name='famsize' ordinal='5' />
+              <column datatype='string' name='Pstatus' ordinal='6' />
+              <column datatype='integer' name='Medu' ordinal='7' />
+              <column datatype='integer' name='Fedu' ordinal='8' />
+              <column datatype='string' name='Mjob' ordinal='9' />
+              <column datatype='string' name='Fjob' ordinal='10' />
+              <column datatype='string' name='reason' ordinal='11' />
+              <column datatype='string' name='guardian' ordinal='12' />
+              <column datatype='integer' name='traveltime' ordinal='13' />
+              <column datatype='integer' name='studytime' ordinal='14' />
+              <column datatype='integer' name='failures' ordinal='15' />
+              <column datatype='string' name='schoolsup' ordinal='16' />
+              <column datatype='string' name='famsup' ordinal='17' />
+              <column datatype='string' name='paid' ordinal='18' />
+              <column datatype='string' name='activities' ordinal='19' />
+              <column datatype='string' name='nursery' ordinal='20' />
+              <column datatype='string' name='higher' ordinal='21' />
+              <column datatype='string' name='internet' ordinal='22' />
+              <column datatype='string' name='romantic' ordinal='23' />
+              <column datatype='integer' name='famrel' ordinal='24' />
+              <column datatype='integer' name='freetime' ordinal='25' />
+              <column datatype='integer' name='goout' ordinal='26' />
+              <column datatype='integer' name='Dalc' ordinal='27' />
+              <column datatype='integer' name='Walc' ordinal='28' />
+              <column datatype='integer' name='health' ordinal='29' />
+              <column datatype='integer' name='absences' ordinal='30' />
+              <column datatype='integer' name='G1' ordinal='31' />
+              <column datatype='integer' name='G2' ordinal='32' />
+              <column datatype='integer' name='G3' ordinal='33' />
+            </columns>
+          </relation>
+          <relation connection='textscan.024hlks1ihe15u1a1dkbg1m2w2fu' name='student-mat.csv1' table='[student-mat#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+              <column datatype='integer' name='F1' ordinal='0' />
+              <column datatype='string' name='school' ordinal='1' />
+              <column datatype='string' name='sex' ordinal='2' />
+              <column datatype='integer' name='age' ordinal='3' />
+              <column datatype='string' name='address' ordinal='4' />
+              <column datatype='string' name='famsize' ordinal='5' />
+              <column datatype='string' name='Pstatus' ordinal='6' />
+              <column datatype='integer' name='Medu' ordinal='7' />
+              <column datatype='integer' name='Fedu' ordinal='8' />
+              <column datatype='string' name='Mjob' ordinal='9' />
+              <column datatype='string' name='Fjob' ordinal='10' />
+              <column datatype='string' name='reason' ordinal='11' />
+              <column datatype='string' name='guardian' ordinal='12' />
+              <column datatype='integer' name='traveltime' ordinal='13' />
+              <column datatype='integer' name='studytime' ordinal='14' />
+              <column datatype='integer' name='failures' ordinal='15' />
+              <column datatype='string' name='schoolsup' ordinal='16' />
+              <column datatype='string' name='famsup' ordinal='17' />
+              <column datatype='string' name='paid' ordinal='18' />
+              <column datatype='string' name='activities' ordinal='19' />
+              <column datatype='string' name='nursery' ordinal='20' />
+              <column datatype='string' name='higher' ordinal='21' />
+              <column datatype='string' name='internet' ordinal='22' />
+              <column datatype='string' name='romantic' ordinal='23' />
+              <column datatype='integer' name='famrel' ordinal='24' />
+              <column datatype='integer' name='freetime' ordinal='25' />
+              <column datatype='integer' name='goout' ordinal='26' />
+              <column datatype='integer' name='Dalc' ordinal='27' />
+              <column datatype='integer' name='Walc' ordinal='28' />
+              <column datatype='integer' name='health' ordinal='29' />
+              <column datatype='integer' name='absences' ordinal='30' />
+              <column datatype='integer' name='G1' ordinal='31' />
+              <column datatype='integer' name='G2' ordinal='32' />
+              <column datatype='integer' name='G3' ordinal='33' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <cols>
+          <map key='[Dalc (student-mat.csv1)]' value='[student-mat.csv1].[Dalc]' />
+          <map key='[Dalc]' value='[student-mat.csv].[Dalc]' />
+          <map key='[F1 (student-mat.csv1)]' value='[student-mat.csv1].[F1]' />
+          <map key='[F1]' value='[student-mat.csv].[F1]' />
+          <map key='[Fedu (student-mat.csv1)]' value='[student-mat.csv1].[Fedu]' />
+          <map key='[Fedu]' value='[student-mat.csv].[Fedu]' />
+          <map key='[Fjob (student-mat.csv1)]' value='[student-mat.csv1].[Fjob]' />
+          <map key='[Fjob]' value='[student-mat.csv].[Fjob]' />
+          <map key='[G1 (student-mat.csv1)]' value='[student-mat.csv1].[G1]' />
+          <map key='[G1]' value='[student-mat.csv].[G1]' />
+          <map key='[G2 (student-mat.csv1)]' value='[student-mat.csv1].[G2]' />
+          <map key='[G2]' value='[student-mat.csv].[G2]' />
+          <map key='[G3 (student-mat.csv1)]' value='[student-mat.csv1].[G3]' />
+          <map key='[G3]' value='[student-mat.csv].[G3]' />
+          <map key='[Medu (student-mat.csv1)]' value='[student-mat.csv1].[Medu]' />
+          <map key='[Medu]' value='[student-mat.csv].[Medu]' />
+          <map key='[Mjob (student-mat.csv1)]' value='[student-mat.csv1].[Mjob]' />
+          <map key='[Mjob]' value='[student-mat.csv].[Mjob]' />
+          <map key='[Pstatus (student-mat.csv1)]' value='[student-mat.csv1].[Pstatus]' />
+          <map key='[Pstatus]' value='[student-mat.csv].[Pstatus]' />
+          <map key='[Walc (student-mat.csv1)]' value='[student-mat.csv1].[Walc]' />
+          <map key='[Walc]' value='[student-mat.csv].[Walc]' />
+          <map key='[absences (student-mat.csv1)]' value='[student-mat.csv1].[absences]' />
+          <map key='[absences]' value='[student-mat.csv].[absences]' />
+          <map key='[activities (student-mat.csv1)]' value='[student-mat.csv1].[activities]' />
+          <map key='[activities]' value='[student-mat.csv].[activities]' />
+          <map key='[address (student-mat.csv1)]' value='[student-mat.csv1].[address]' />
+          <map key='[address]' value='[student-mat.csv].[address]' />
+          <map key='[age (student-mat.csv1)]' value='[student-mat.csv1].[age]' />
+          <map key='[age]' value='[student-mat.csv].[age]' />
+          <map key='[failures (student-mat.csv1)]' value='[student-mat.csv1].[failures]' />
+          <map key='[failures]' value='[student-mat.csv].[failures]' />
+          <map key='[famrel (student-mat.csv1)]' value='[student-mat.csv1].[famrel]' />
+          <map key='[famrel]' value='[student-mat.csv].[famrel]' />
+          <map key='[famsize (student-mat.csv1)]' value='[student-mat.csv1].[famsize]' />
+          <map key='[famsize]' value='[student-mat.csv].[famsize]' />
+          <map key='[famsup (student-mat.csv1)]' value='[student-mat.csv1].[famsup]' />
+          <map key='[famsup]' value='[student-mat.csv].[famsup]' />
+          <map key='[freetime (student-mat.csv1)]' value='[student-mat.csv1].[freetime]' />
+          <map key='[freetime]' value='[student-mat.csv].[freetime]' />
+          <map key='[goout (student-mat.csv1)]' value='[student-mat.csv1].[goout]' />
+          <map key='[goout]' value='[student-mat.csv].[goout]' />
+          <map key='[guardian (student-mat.csv1)]' value='[student-mat.csv1].[guardian]' />
+          <map key='[guardian]' value='[student-mat.csv].[guardian]' />
+          <map key='[health (student-mat.csv1)]' value='[student-mat.csv1].[health]' />
+          <map key='[health]' value='[student-mat.csv].[health]' />
+          <map key='[higher (student-mat.csv1)]' value='[student-mat.csv1].[higher]' />
+          <map key='[higher]' value='[student-mat.csv].[higher]' />
+          <map key='[internet (student-mat.csv1)]' value='[student-mat.csv1].[internet]' />
+          <map key='[internet]' value='[student-mat.csv].[internet]' />
+          <map key='[nursery (student-mat.csv1)]' value='[student-mat.csv1].[nursery]' />
+          <map key='[nursery]' value='[student-mat.csv].[nursery]' />
+          <map key='[paid (student-mat.csv1)]' value='[student-mat.csv1].[paid]' />
+          <map key='[paid]' value='[student-mat.csv].[paid]' />
+          <map key='[reason (student-mat.csv1)]' value='[student-mat.csv1].[reason]' />
+          <map key='[reason]' value='[student-mat.csv].[reason]' />
+          <map key='[romantic (student-mat.csv1)]' value='[student-mat.csv1].[romantic]' />
+          <map key='[romantic]' value='[student-mat.csv].[romantic]' />
+          <map key='[school (student-mat.csv1)]' value='[student-mat.csv1].[school]' />
+          <map key='[school]' value='[student-mat.csv].[school]' />
+          <map key='[schoolsup (student-mat.csv1)]' value='[student-mat.csv1].[schoolsup]' />
+          <map key='[schoolsup]' value='[student-mat.csv].[schoolsup]' />
+          <map key='[sex (student-mat.csv1)]' value='[student-mat.csv1].[sex]' />
+          <map key='[sex]' value='[student-mat.csv].[sex]' />
+          <map key='[studytime (student-mat.csv1)]' value='[student-mat.csv1].[studytime]' />
+          <map key='[studytime]' value='[student-mat.csv].[studytime]' />
+          <map key='[traveltime (student-mat.csv1)]' value='[student-mat.csv1].[traveltime]' />
+          <map key='[traveltime]' value='[student-mat.csv].[traveltime]' />
+        </cols>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[student-mat.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_CA&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[student-mat.csv1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_CA&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[student-mat.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student-mat.csv_8F036777A6314827B66AEF0EA4ED15BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>school</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[school]</local-name>
+            <parent-name>[student-mat.csv]</parent-name>
+            <remote-alias>school</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student-mat.csv_8F036777A6314827B66AEF0EA4ED15BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sex</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[sex]</local-name>
+            <parent-name>[student-mat.csv]</parent-name>
+            <remote-alias>sex</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student-mat.csv_8F036777A6314827B66AEF0EA4ED15BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>age</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[age]</local-name>
+            <parent-name>[student-mat.csv]</parent-name>
+            <remote-alias>age</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student-mat.csv_8F036777A6314827B66AEF0EA4ED15BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>address</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[address]</local-name>
+            <parent-name>[student-mat.csv]</parent-name>
+            <remote-alias>address</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student-mat.csv_8F036777A6314827B66AEF0EA4ED15BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>famsize</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[famsize]</local-name>
+            <parent-name>[student-mat.csv]</parent-name>
+            <remote-alias>famsize</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student-mat.csv_8F036777A6314827B66AEF0EA4ED15BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pstatus</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Pstatus]</local-name>
+            <parent-name>[student-mat.csv]</parent-name>
+            <remote-alias>Pstatus</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student-mat.csv_8F036777A6314827B66AEF0EA4ED15BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Medu</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Medu]</local-name>
+            <parent-name>[student-mat.csv]</parent-name>
+            <remote-alias>Medu</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student-mat.csv_8F036777A6314827B66AEF0EA4ED15BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fedu</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Fedu]</local-name>
+            <parent-name>[student-mat.csv]</parent-name>
+            <remote-alias>Fedu</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student-mat.csv_8F036777A6314827B66AEF0EA4ED15BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mjob</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Mjob]</local-name>
+            <parent-name>[student-mat.csv]</parent-name>
+            <remote-alias>Mjob</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student-mat.csv_8F036777A6314827B66AEF0EA4ED15BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fjob</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Fjob]</local-name>
+            <parent-name>[student-mat.csv]</parent-name>
+            <remote-alias>Fjob</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student-mat.csv_8F036777A6314827B66AEF0EA4ED15BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>reason</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[reason]</local-name>
+            <parent-name>[student-mat.csv]</parent-name>
+            <remote-alias>reason</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student-mat.csv_8F036777A6314827B66AEF0EA4ED15BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>guardian</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[guardian]</local-name>
+            <parent-name>[student-mat.csv]</parent-name>
+            <remote-alias>guardian</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student-mat.csv_8F036777A6314827B66AEF0EA4ED15BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>traveltime</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[traveltime]</local-name>
+            <parent-name>[student-mat.csv]</parent-name>
+            <remote-alias>traveltime</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student-mat.csv_8F036777A6314827B66AEF0EA4ED15BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>studytime</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[studytime]</local-name>
+            <parent-name>[student-mat.csv]</parent-name>
+            <remote-alias>studytime</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student-mat.csv_8F036777A6314827B66AEF0EA4ED15BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>failures</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[failures]</local-name>
+            <parent-name>[student-mat.csv]</parent-name>
+            <remote-alias>failures</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student-mat.csv_8F036777A6314827B66AEF0EA4ED15BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>schoolsup</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[schoolsup]</local-name>
+            <parent-name>[student-mat.csv]</parent-name>
+            <remote-alias>schoolsup</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student-mat.csv_8F036777A6314827B66AEF0EA4ED15BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>famsup</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[famsup]</local-name>
+            <parent-name>[student-mat.csv]</parent-name>
+            <remote-alias>famsup</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student-mat.csv_8F036777A6314827B66AEF0EA4ED15BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>paid</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[paid]</local-name>
+            <parent-name>[student-mat.csv]</parent-name>
+            <remote-alias>paid</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student-mat.csv_8F036777A6314827B66AEF0EA4ED15BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>activities</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[activities]</local-name>
+            <parent-name>[student-mat.csv]</parent-name>
+            <remote-alias>activities</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student-mat.csv_8F036777A6314827B66AEF0EA4ED15BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nursery</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[nursery]</local-name>
+            <parent-name>[student-mat.csv]</parent-name>
+            <remote-alias>nursery</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student-mat.csv_8F036777A6314827B66AEF0EA4ED15BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>higher</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[higher]</local-name>
+            <parent-name>[student-mat.csv]</parent-name>
+            <remote-alias>higher</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student-mat.csv_8F036777A6314827B66AEF0EA4ED15BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>internet</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[internet]</local-name>
+            <parent-name>[student-mat.csv]</parent-name>
+            <remote-alias>internet</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student-mat.csv_8F036777A6314827B66AEF0EA4ED15BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>romantic</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[romantic]</local-name>
+            <parent-name>[student-mat.csv]</parent-name>
+            <remote-alias>romantic</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student-mat.csv_8F036777A6314827B66AEF0EA4ED15BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>famrel</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[famrel]</local-name>
+            <parent-name>[student-mat.csv]</parent-name>
+            <remote-alias>famrel</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student-mat.csv_8F036777A6314827B66AEF0EA4ED15BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>freetime</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[freetime]</local-name>
+            <parent-name>[student-mat.csv]</parent-name>
+            <remote-alias>freetime</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student-mat.csv_8F036777A6314827B66AEF0EA4ED15BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>goout</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[goout]</local-name>
+            <parent-name>[student-mat.csv]</parent-name>
+            <remote-alias>goout</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student-mat.csv_8F036777A6314827B66AEF0EA4ED15BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dalc</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Dalc]</local-name>
+            <parent-name>[student-mat.csv]</parent-name>
+            <remote-alias>Dalc</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student-mat.csv_8F036777A6314827B66AEF0EA4ED15BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Walc</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Walc]</local-name>
+            <parent-name>[student-mat.csv]</parent-name>
+            <remote-alias>Walc</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student-mat.csv_8F036777A6314827B66AEF0EA4ED15BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>health</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[health]</local-name>
+            <parent-name>[student-mat.csv]</parent-name>
+            <remote-alias>health</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student-mat.csv_8F036777A6314827B66AEF0EA4ED15BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>absences</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[absences]</local-name>
+            <parent-name>[student-mat.csv]</parent-name>
+            <remote-alias>absences</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student-mat.csv_8F036777A6314827B66AEF0EA4ED15BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>G1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[G1]</local-name>
+            <parent-name>[student-mat.csv]</parent-name>
+            <remote-alias>G1</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student-mat.csv_8F036777A6314827B66AEF0EA4ED15BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>G2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[G2]</local-name>
+            <parent-name>[student-mat.csv]</parent-name>
+            <remote-alias>G2</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student-mat.csv_8F036777A6314827B66AEF0EA4ED15BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>G3</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[G3]</local-name>
+            <parent-name>[student-mat.csv]</parent-name>
+            <remote-alias>G3</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student-mat.csv_8F036777A6314827B66AEF0EA4ED15BA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1 (student-mat.csv1)]</local-name>
+            <parent-name>[student-mat.csv1]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student-mat.csv_AF575B5CC18C42D692290EC4795D441C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>school</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[school (student-mat.csv1)]</local-name>
+            <parent-name>[student-mat.csv1]</parent-name>
+            <remote-alias>school</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student-mat.csv_AF575B5CC18C42D692290EC4795D441C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sex</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[sex (student-mat.csv1)]</local-name>
+            <parent-name>[student-mat.csv1]</parent-name>
+            <remote-alias>sex</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student-mat.csv_AF575B5CC18C42D692290EC4795D441C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>age</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[age (student-mat.csv1)]</local-name>
+            <parent-name>[student-mat.csv1]</parent-name>
+            <remote-alias>age</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student-mat.csv_AF575B5CC18C42D692290EC4795D441C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>address</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[address (student-mat.csv1)]</local-name>
+            <parent-name>[student-mat.csv1]</parent-name>
+            <remote-alias>address</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student-mat.csv_AF575B5CC18C42D692290EC4795D441C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>famsize</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[famsize (student-mat.csv1)]</local-name>
+            <parent-name>[student-mat.csv1]</parent-name>
+            <remote-alias>famsize</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student-mat.csv_AF575B5CC18C42D692290EC4795D441C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pstatus</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Pstatus (student-mat.csv1)]</local-name>
+            <parent-name>[student-mat.csv1]</parent-name>
+            <remote-alias>Pstatus</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student-mat.csv_AF575B5CC18C42D692290EC4795D441C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Medu</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Medu (student-mat.csv1)]</local-name>
+            <parent-name>[student-mat.csv1]</parent-name>
+            <remote-alias>Medu</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student-mat.csv_AF575B5CC18C42D692290EC4795D441C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fedu</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Fedu (student-mat.csv1)]</local-name>
+            <parent-name>[student-mat.csv1]</parent-name>
+            <remote-alias>Fedu</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student-mat.csv_AF575B5CC18C42D692290EC4795D441C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mjob</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Mjob (student-mat.csv1)]</local-name>
+            <parent-name>[student-mat.csv1]</parent-name>
+            <remote-alias>Mjob</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student-mat.csv_AF575B5CC18C42D692290EC4795D441C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fjob</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Fjob (student-mat.csv1)]</local-name>
+            <parent-name>[student-mat.csv1]</parent-name>
+            <remote-alias>Fjob</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student-mat.csv_AF575B5CC18C42D692290EC4795D441C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>reason</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[reason (student-mat.csv1)]</local-name>
+            <parent-name>[student-mat.csv1]</parent-name>
+            <remote-alias>reason</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student-mat.csv_AF575B5CC18C42D692290EC4795D441C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>guardian</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[guardian (student-mat.csv1)]</local-name>
+            <parent-name>[student-mat.csv1]</parent-name>
+            <remote-alias>guardian</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student-mat.csv_AF575B5CC18C42D692290EC4795D441C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>traveltime</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[traveltime (student-mat.csv1)]</local-name>
+            <parent-name>[student-mat.csv1]</parent-name>
+            <remote-alias>traveltime</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student-mat.csv_AF575B5CC18C42D692290EC4795D441C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>studytime</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[studytime (student-mat.csv1)]</local-name>
+            <parent-name>[student-mat.csv1]</parent-name>
+            <remote-alias>studytime</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student-mat.csv_AF575B5CC18C42D692290EC4795D441C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>failures</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[failures (student-mat.csv1)]</local-name>
+            <parent-name>[student-mat.csv1]</parent-name>
+            <remote-alias>failures</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student-mat.csv_AF575B5CC18C42D692290EC4795D441C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>schoolsup</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[schoolsup (student-mat.csv1)]</local-name>
+            <parent-name>[student-mat.csv1]</parent-name>
+            <remote-alias>schoolsup</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student-mat.csv_AF575B5CC18C42D692290EC4795D441C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>famsup</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[famsup (student-mat.csv1)]</local-name>
+            <parent-name>[student-mat.csv1]</parent-name>
+            <remote-alias>famsup</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student-mat.csv_AF575B5CC18C42D692290EC4795D441C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>paid</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[paid (student-mat.csv1)]</local-name>
+            <parent-name>[student-mat.csv1]</parent-name>
+            <remote-alias>paid</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student-mat.csv_AF575B5CC18C42D692290EC4795D441C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>activities</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[activities (student-mat.csv1)]</local-name>
+            <parent-name>[student-mat.csv1]</parent-name>
+            <remote-alias>activities</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student-mat.csv_AF575B5CC18C42D692290EC4795D441C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nursery</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[nursery (student-mat.csv1)]</local-name>
+            <parent-name>[student-mat.csv1]</parent-name>
+            <remote-alias>nursery</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student-mat.csv_AF575B5CC18C42D692290EC4795D441C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>higher</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[higher (student-mat.csv1)]</local-name>
+            <parent-name>[student-mat.csv1]</parent-name>
+            <remote-alias>higher</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student-mat.csv_AF575B5CC18C42D692290EC4795D441C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>internet</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[internet (student-mat.csv1)]</local-name>
+            <parent-name>[student-mat.csv1]</parent-name>
+            <remote-alias>internet</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student-mat.csv_AF575B5CC18C42D692290EC4795D441C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>romantic</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[romantic (student-mat.csv1)]</local-name>
+            <parent-name>[student-mat.csv1]</parent-name>
+            <remote-alias>romantic</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student-mat.csv_AF575B5CC18C42D692290EC4795D441C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>famrel</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[famrel (student-mat.csv1)]</local-name>
+            <parent-name>[student-mat.csv1]</parent-name>
+            <remote-alias>famrel</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student-mat.csv_AF575B5CC18C42D692290EC4795D441C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>freetime</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[freetime (student-mat.csv1)]</local-name>
+            <parent-name>[student-mat.csv1]</parent-name>
+            <remote-alias>freetime</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student-mat.csv_AF575B5CC18C42D692290EC4795D441C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>goout</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[goout (student-mat.csv1)]</local-name>
+            <parent-name>[student-mat.csv1]</parent-name>
+            <remote-alias>goout</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student-mat.csv_AF575B5CC18C42D692290EC4795D441C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dalc</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Dalc (student-mat.csv1)]</local-name>
+            <parent-name>[student-mat.csv1]</parent-name>
+            <remote-alias>Dalc</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student-mat.csv_AF575B5CC18C42D692290EC4795D441C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Walc</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Walc (student-mat.csv1)]</local-name>
+            <parent-name>[student-mat.csv1]</parent-name>
+            <remote-alias>Walc</remote-alias>
+            <ordinal>62</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student-mat.csv_AF575B5CC18C42D692290EC4795D441C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>health</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[health (student-mat.csv1)]</local-name>
+            <parent-name>[student-mat.csv1]</parent-name>
+            <remote-alias>health</remote-alias>
+            <ordinal>63</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student-mat.csv_AF575B5CC18C42D692290EC4795D441C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>absences</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[absences (student-mat.csv1)]</local-name>
+            <parent-name>[student-mat.csv1]</parent-name>
+            <remote-alias>absences</remote-alias>
+            <ordinal>64</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student-mat.csv_AF575B5CC18C42D692290EC4795D441C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>G1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[G1 (student-mat.csv1)]</local-name>
+            <parent-name>[student-mat.csv1]</parent-name>
+            <remote-alias>G1</remote-alias>
+            <ordinal>65</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student-mat.csv_AF575B5CC18C42D692290EC4795D441C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>G2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[G2 (student-mat.csv1)]</local-name>
+            <parent-name>[student-mat.csv1]</parent-name>
+            <remote-alias>G2</remote-alias>
+            <ordinal>66</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student-mat.csv_AF575B5CC18C42D692290EC4795D441C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>G3</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[G3 (student-mat.csv1)]</local-name>
+            <parent-name>[student-mat.csv1]</parent-name>
+            <remote-alias>G3</remote-alias>
+            <ordinal>67</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[student-mat.csv_AF575B5CC18C42D692290EC4795D441C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Pedu' datatype='real' name='[Calculation_5151836532397486081]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='([Medu] + [Fedu])/2' />
+      </column>
+      <column caption='Pearson Correlation Coefficient' datatype='real' name='[Calculation_5151836532400566274]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='CORR( { INCLUDE [Fedu] : SUM( [Calculation_5151836532397486081])}, { INCLUDE [Fedu (student-mat.csv1)] : SUM([Calculation_5151836532397486081])})' />
+      </column>
+      <column caption='Not same sub category filter' datatype='real' name='[Calculation_5151836532400672771]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Sub-Category] != [Sub-Category (Orders)]' />
+      </column>
+      <column datatype='integer' name='[Dalc]' role='measure' type='quantitative' />
+      <column aggregation='None' datatype='integer' name='[Fedu (bin)]' role='dimension' type='quantitative'>
+        <calculation class='bin' decimals='-1' formula='[Fedu]' peg='0' size='0.865' />
+      </column>
+      <column datatype='integer' name='[Fedu]' role='measure' type='quantitative' />
+      <column aggregation='None' datatype='integer' name='[G3 (bin)]' role='dimension' type='quantitative'>
+        <calculation class='bin' decimals='0' formula='[G3]' peg='0' size='2.43' />
+      </column>
+      <column datatype='integer' name='[G3]' role='measure' type='quantitative' />
+      <column aggregation='None' datatype='integer' name='[Medu (bin)]' role='dimension' type='quantitative'>
+        <calculation class='bin' decimals='-1' formula='[Medu]' peg='0' size='0.865' />
+      </column>
+      <column datatype='integer' name='[Medu]' role='measure' type='quantitative' />
+      <column aggregation='None' datatype='integer' name='[Pedu (bin)]' role='dimension' type='quantitative'>
+        <calculation class='bin' decimals='-1' formula='[Calculation_5151836532397486081]' peg='0' size='0.613' />
+      </column>
+      <column datatype='integer' name='[Walc]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='student-mat.csv' datatype='table' name='[__tableau_internal_object_id__].[student-mat.csv_8F036777A6314827B66AEF0EA4ED15BA]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='student-mat.csv1' datatype='table' name='[__tableau_internal_object_id__].[student-mat.csv_AF575B5CC18C42D692290EC4795D441C]' role='measure' type='quantitative' />
+      <column caption='Absences (Student-Mat.Csv1)' datatype='integer' name='[absences (student-mat.csv1)]' role='measure' type='quantitative' />
+      <column caption='Absences' datatype='integer' name='[absences]' role='measure' type='quantitative' />
+      <column caption='Activities (Student-Mat.Csv1)' datatype='string' name='[activities (student-mat.csv1)]' role='dimension' type='nominal' />
+      <column caption='Activities' datatype='string' name='[activities]' role='dimension' type='nominal' />
+      <column caption='Address (Student-Mat.Csv1)' datatype='string' name='[address (student-mat.csv1)]' role='dimension' type='nominal' />
+      <column caption='Address' datatype='string' name='[address]' role='dimension' type='nominal' />
+      <column caption='Age (Student-Mat.Csv1)' datatype='integer' name='[age (student-mat.csv1)]' role='measure' type='quantitative' />
+      <column caption='Age' datatype='integer' name='[age]' role='measure' type='quantitative' />
+      <column caption='Failures (Student-Mat.Csv1)' datatype='integer' name='[failures (student-mat.csv1)]' role='measure' type='quantitative' />
+      <column caption='Failures' datatype='integer' name='[failures]' role='measure' type='quantitative' />
+      <column caption='Famrel (Student-Mat.Csv1)' datatype='integer' name='[famrel (student-mat.csv1)]' role='measure' type='quantitative' />
+      <column caption='Famrel' datatype='integer' name='[famrel]' role='measure' type='quantitative' />
+      <column caption='Famsize (Student-Mat.Csv1)' datatype='string' name='[famsize (student-mat.csv1)]' role='dimension' type='nominal' />
+      <column caption='Famsize' datatype='string' name='[famsize]' role='dimension' type='nominal' />
+      <column caption='Famsup (Student-Mat.Csv1)' datatype='string' name='[famsup (student-mat.csv1)]' role='dimension' type='nominal' />
+      <column caption='Famsup' datatype='string' name='[famsup]' role='dimension' type='nominal' />
+      <column caption='Freetime (Student-Mat.Csv1)' datatype='integer' name='[freetime (student-mat.csv1)]' role='measure' type='quantitative' />
+      <column caption='Freetime' datatype='integer' name='[freetime]' role='measure' type='quantitative' />
+      <column caption='Goout (Student-Mat.Csv1)' datatype='integer' name='[goout (student-mat.csv1)]' role='measure' type='quantitative' />
+      <column caption='Goout' datatype='integer' name='[goout]' role='measure' type='quantitative' />
+      <column caption='Guardian (Student-Mat.Csv1)' datatype='string' name='[guardian (student-mat.csv1)]' role='dimension' type='nominal' />
+      <column caption='Guardian' datatype='string' name='[guardian]' role='dimension' type='nominal' />
+      <column caption='Health (Student-Mat.Csv1)' datatype='integer' name='[health (student-mat.csv1)]' role='measure' type='quantitative' />
+      <column caption='Health' datatype='integer' name='[health]' role='measure' type='quantitative' />
+      <column caption='Higher (Student-Mat.Csv1)' datatype='string' name='[higher (student-mat.csv1)]' role='dimension' type='nominal' />
+      <column caption='Higher' datatype='string' name='[higher]' role='dimension' type='nominal' />
+      <column caption='Internet (Student-Mat.Csv1)' datatype='string' name='[internet (student-mat.csv1)]' role='dimension' type='nominal' />
+      <column caption='Internet' datatype='string' name='[internet]' role='dimension' type='nominal' />
+      <column caption='Nursery (Student-Mat.Csv1)' datatype='string' name='[nursery (student-mat.csv1)]' role='dimension' type='nominal' />
+      <column caption='Nursery' datatype='string' name='[nursery]' role='dimension' type='nominal' />
+      <column caption='Paid (Student-Mat.Csv1)' datatype='string' name='[paid (student-mat.csv1)]' role='dimension' type='nominal' />
+      <column caption='Paid' datatype='string' name='[paid]' role='dimension' type='nominal' />
+      <column caption='Reason (Student-Mat.Csv1)' datatype='string' name='[reason (student-mat.csv1)]' role='dimension' type='nominal' />
+      <column caption='Reason' datatype='string' name='[reason]' role='dimension' type='nominal' />
+      <column caption='Romantic (Student-Mat.Csv1)' datatype='string' name='[romantic (student-mat.csv1)]' role='dimension' type='nominal' />
+      <column caption='Romantic' datatype='string' name='[romantic]' role='dimension' type='nominal' />
+      <column caption='School (Student-Mat.Csv1)' datatype='string' name='[school (student-mat.csv1)]' role='dimension' type='nominal' />
+      <column caption='School' datatype='string' name='[school]' role='dimension' type='nominal' />
+      <column caption='Schoolsup (Student-Mat.Csv1)' datatype='string' name='[schoolsup (student-mat.csv1)]' role='dimension' type='nominal' />
+      <column caption='Schoolsup' datatype='string' name='[schoolsup]' role='dimension' type='nominal' />
+      <column caption='Sex (Student-Mat.Csv1)' datatype='string' name='[sex (student-mat.csv1)]' role='dimension' type='nominal' />
+      <column caption='Sex' datatype='string' name='[sex]' role='dimension' type='nominal' />
+      <column caption='Studytime (Student-Mat.Csv1)' datatype='integer' name='[studytime (student-mat.csv1)]' role='measure' type='quantitative' />
+      <column caption='Studytime' datatype='integer' name='[studytime]' role='measure' type='quantitative' />
+      <column caption='Traveltime (Student-Mat.Csv1)' datatype='integer' name='[traveltime (student-mat.csv1)]' role='measure' type='quantitative' />
+      <column caption='Traveltime' datatype='integer' name='[traveltime]' role='measure' type='quantitative' />
+      <column-instance column='[Medu]' derivation='Attribute' name='[attr:Medu:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_5151836532397486081]' derivation='Avg' name='[avg:Calculation_5151836532397486081:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Fedu]' derivation='Avg' name='[avg:Fedu:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[G3]' derivation='Avg' name='[avg:G3:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Medu]' derivation='Avg' name='[avg:Medu:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Walc]' derivation='Avg' name='[avg:Walc:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[failures]' derivation='Avg' name='[avg:failures:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_5151836532397486081]' derivation='Count' name='[cnt:Calculation_5151836532397486081:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Dalc]' derivation='Count' name='[cnt:Dalc:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Fedu]' derivation='Count' name='[cnt:Fedu:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[G3]' derivation='Count' name='[cnt:G3:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Medu]' derivation='Count' name='[cnt:Medu:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Walc]' derivation='Count' name='[cnt:Walc:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[failures]' derivation='Count' name='[cnt:failures:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Fedu]' derivation='CountD' name='[ctd:Fedu:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Medu]' derivation='CountD' name='[ctd:Medu:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_5151836532397486081]' derivation='Median' name='[med:Calculation_5151836532397486081:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Fedu]' derivation='Median' name='[med:Fedu:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[G3]' derivation='Median' name='[med:G3:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Medu]' derivation='Median' name='[med:Medu:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_5151836532397486081]' derivation='None' name='[none:Calculation_5151836532397486081:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Dalc]' derivation='None' name='[none:Dalc:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Fedu]' derivation='None' name='[none:Fedu:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[G3]' derivation='None' name='[none:G3:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Medu]' derivation='None' name='[none:Medu:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[failures]' derivation='None' name='[none:failures:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_5151836532397486081]' derivation='Sum' name='[sum:Calculation_5151836532397486081:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Fedu]' derivation='Sum' name='[sum:Fedu:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[G3]' derivation='Sum' name='[sum:G3:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Medu]' derivation='Sum' name='[sum:Medu:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[failures]' derivation='Sum' name='[sum:failures:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[famrel]' derivation='Sum' name='[sum:famrel:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[studytime]' derivation='Sum' name='[sum:studytime:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_5151836532400566274]' derivation='User' name='[usr:Calculation_5151836532400566274:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' palette='jewel_bright_10_0' type='palette'>
+            <map to='#5750c7'>
+              <bucket>&quot;[federated.0q95elm0oldndg1bdef8y13a8xjx].[sum:G3:qk]&quot;</bucket>
+            </map>
+            <map to='#6d4bdf'>
+              <bucket>&quot;[federated.0q95elm0oldndg1bdef8y13a8xjx].[sum:Medu:qk]&quot;</bucket>
+            </map>
+            <map to='#a4a4d5'>
+              <bucket>&quot;[federated.0q95elm0oldndg1bdef8y13a8xjx].[avg:Fedu:qk]&quot;</bucket>
+            </map>
+            <map to='#a4a4d5'>
+              <bucket>&quot;[federated.0q95elm0oldndg1bdef8y13a8xjx].[cnt:Medu:qk]&quot;</bucket>
+            </map>
+            <map to='#a4a4d5'>
+              <bucket>&quot;[federated.0q95elm0oldndg1bdef8y13a8xjx].[med:Medu:qk]&quot;</bucket>
+            </map>
+            <map to='#ae123a'>
+              <bucket>&quot;[federated.0q95elm0oldndg1bdef8y13a8xjx].[avg:Calculation_5151836532397486081:qk]&quot;</bucket>
+            </map>
+            <map to='#ae123a'>
+              <bucket>&quot;[federated.0q95elm0oldndg1bdef8y13a8xjx].[cnt:Calculation_5151836532397486081:qk]&quot;</bucket>
+            </map>
+            <map to='#ae123a'>
+              <bucket>&quot;[federated.0q95elm0oldndg1bdef8y13a8xjx].[cnt:failures:qk]&quot;</bucket>
+            </map>
+            <map to='#ae123a'>
+              <bucket>&quot;[federated.0q95elm0oldndg1bdef8y13a8xjx].[med:Calculation_5151836532397486081:qk]&quot;</bucket>
+            </map>
+            <map to='#ae123a'>
+              <bucket>&quot;[federated.0q95elm0oldndg1bdef8y13a8xjx].[none:Calculation_5151836532397486081:qk]&quot;</bucket>
+            </map>
+            <map to='#ae123a'>
+              <bucket>&quot;[federated.0q95elm0oldndg1bdef8y13a8xjx].[none:failures:qk]&quot;</bucket>
+            </map>
+            <map to='#ae123a'>
+              <bucket>&quot;[federated.0q95elm0oldndg1bdef8y13a8xjx].[sum:Calculation_5151836532397486081:qk]&quot;</bucket>
+            </map>
+            <map to='#ae123a'>
+              <bucket>&quot;[federated.0q95elm0oldndg1bdef8y13a8xjx].[sum:famrel:qk]&quot;</bucket>
+            </map>
+            <map to='#ae123a'>
+              <bucket>&quot;[federated.0q95elm0oldndg1bdef8y13a8xjx].[sum:studytime:qk]&quot;</bucket>
+            </map>
+            <map to='#e13b42'>
+              <bucket>&quot;[federated.0q95elm0oldndg1bdef8y13a8xjx].[ctd:Fedu:qk]&quot;</bucket>
+            </map>
+            <map to='#e13b42'>
+              <bucket>&quot;[federated.0q95elm0oldndg1bdef8y13a8xjx].[sum:Fedu:qk]&quot;</bucket>
+            </map>
+            <map to='#eb1e2c'>
+              <bucket>&quot;[federated.0q95elm0oldndg1bdef8y13a8xjx].[attr:Medu:qk]&quot;</bucket>
+            </map>
+            <map to='#eb1e2c'>
+              <bucket>&quot;[federated.0q95elm0oldndg1bdef8y13a8xjx].[avg:failures:qk]&quot;</bucket>
+            </map>
+            <map to='#eb1e2c'>
+              <bucket>&quot;[federated.0q95elm0oldndg1bdef8y13a8xjx].[avg:Medu:qk]&quot;</bucket>
+            </map>
+            <map to='#eb1e2c'>
+              <bucket>&quot;[federated.0q95elm0oldndg1bdef8y13a8xjx].[cnt:Dalc:qk]&quot;</bucket>
+            </map>
+            <map to='#eb1e2c'>
+              <bucket>&quot;[federated.0q95elm0oldndg1bdef8y13a8xjx].[cnt:Fedu:qk]&quot;</bucket>
+            </map>
+            <map to='#eb1e2c'>
+              <bucket>&quot;[federated.0q95elm0oldndg1bdef8y13a8xjx].[ctd:Medu:qk]&quot;</bucket>
+            </map>
+            <map to='#eb1e2c'>
+              <bucket>&quot;[federated.0q95elm0oldndg1bdef8y13a8xjx].[med:Fedu:qk]&quot;</bucket>
+            </map>
+            <map to='#eb1e2c'>
+              <bucket>&quot;[federated.0q95elm0oldndg1bdef8y13a8xjx].[none:Dalc:qk]&quot;</bucket>
+            </map>
+            <map to='#eb1e2c'>
+              <bucket>&quot;[federated.0q95elm0oldndg1bdef8y13a8xjx].[none:Fedu:qk]&quot;</bucket>
+            </map>
+            <map to='#eb1e2c'>
+              <bucket>&quot;[federated.0q95elm0oldndg1bdef8y13a8xjx].[none:Medu:qk]&quot;</bucket>
+            </map>
+            <map to='#eb1e2c'>
+              <bucket>&quot;[federated.0q95elm0oldndg1bdef8y13a8xjx].[sum:failures:qk]&quot;</bucket>
+            </map>
+            <map to='#f26250'>
+              <bucket>&quot;[federated.0q95elm0oldndg1bdef8y13a8xjx]&quot;</bucket>
+            </map>
+            <map to='#f26250'>
+              <bucket>&quot;[federated.0q95elm0oldndg1bdef8y13a8xjx].[avg:G3:qk]&quot;</bucket>
+            </map>
+            <map to='#f26250'>
+              <bucket>&quot;[federated.0q95elm0oldndg1bdef8y13a8xjx].[cnt:G3:qk]&quot;</bucket>
+            </map>
+            <map to='#f26250'>
+              <bucket>&quot;[federated.0q95elm0oldndg1bdef8y13a8xjx].[med:G3:qk]&quot;</bucket>
+            </map>
+            <map to='#f26250'>
+              <bucket>&quot;[federated.0q95elm0oldndg1bdef8y13a8xjx].[none:Calculation_5151836532393844736:qk]&quot;</bucket>
+            </map>
+            <map to='#f26250'>
+              <bucket>&quot;[federated.0q95elm0oldndg1bdef8y13a8xjx].[none:G3:qk]&quot;</bucket>
+            </map>
+            <map to='#f9a729'>
+              <bucket>&quot;[federated.0q95elm0oldndg1bdef8y13a8xjx].[usr:Calculation_5151836532400566274:qk]&quot;</bucket>
+            </map>
+            <map to='#fd6f30'>
+              <bucket>&quot;[federated.0q95elm0oldndg1bdef8y13a8xjx].[avg:Walc:qk]&quot;</bucket>
+            </map>
+            <map to='#fd6f30'>
+              <bucket>&quot;[federated.0q95elm0oldndg1bdef8y13a8xjx].[cnt:Walc:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Canada&quot;' />
+      </semantic-values>
+      <field-sort-info field-sort-order-type='custom-order'>
+        <field-sort-custom-order field='F1' />
+        <field-sort-custom-order field='school' />
+        <field-sort-custom-order field='sex' />
+        <field-sort-custom-order field='age' />
+        <field-sort-custom-order field='address' />
+        <field-sort-custom-order field='famsize' />
+        <field-sort-custom-order field='Pstatus' />
+        <field-sort-custom-order field='Medu' />
+        <field-sort-custom-order field='Fedu' />
+        <field-sort-custom-order field='Mjob' />
+        <field-sort-custom-order field='Fjob' />
+        <field-sort-custom-order field='reason' />
+        <field-sort-custom-order field='guardian' />
+        <field-sort-custom-order field='traveltime' />
+        <field-sort-custom-order field='studytime' />
+        <field-sort-custom-order field='failures' />
+        <field-sort-custom-order field='schoolsup' />
+        <field-sort-custom-order field='famsup' />
+        <field-sort-custom-order field='paid' />
+        <field-sort-custom-order field='activities' />
+        <field-sort-custom-order field='nursery' />
+        <field-sort-custom-order field='higher' />
+        <field-sort-custom-order field='internet' />
+        <field-sort-custom-order field='romantic' />
+        <field-sort-custom-order field='famrel' />
+        <field-sort-custom-order field='freetime' />
+        <field-sort-custom-order field='goout' />
+        <field-sort-custom-order field='Dalc' />
+        <field-sort-custom-order field='Walc' />
+        <field-sort-custom-order field='health' />
+        <field-sort-custom-order field='Calculation_5151836532397486081' />
+        <field-sort-custom-order field='absences' />
+        <field-sort-custom-order field='G1' />
+        <field-sort-custom-order field='G2' />
+        <field-sort-custom-order field='G3' />
+      </field-sort-info>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='student-mat.csv' id='student-mat.csv_8F036777A6314827B66AEF0EA4ED15BA'>
+            <properties context=''>
+              <relation connection='textscan.024hlks1ihe15u1a1dkbg1m2w2fu' name='student-mat.csv' table='[student-mat#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='string' name='school' ordinal='1' />
+                  <column datatype='string' name='sex' ordinal='2' />
+                  <column datatype='integer' name='age' ordinal='3' />
+                  <column datatype='string' name='address' ordinal='4' />
+                  <column datatype='string' name='famsize' ordinal='5' />
+                  <column datatype='string' name='Pstatus' ordinal='6' />
+                  <column datatype='integer' name='Medu' ordinal='7' />
+                  <column datatype='integer' name='Fedu' ordinal='8' />
+                  <column datatype='string' name='Mjob' ordinal='9' />
+                  <column datatype='string' name='Fjob' ordinal='10' />
+                  <column datatype='string' name='reason' ordinal='11' />
+                  <column datatype='string' name='guardian' ordinal='12' />
+                  <column datatype='integer' name='traveltime' ordinal='13' />
+                  <column datatype='integer' name='studytime' ordinal='14' />
+                  <column datatype='integer' name='failures' ordinal='15' />
+                  <column datatype='string' name='schoolsup' ordinal='16' />
+                  <column datatype='string' name='famsup' ordinal='17' />
+                  <column datatype='string' name='paid' ordinal='18' />
+                  <column datatype='string' name='activities' ordinal='19' />
+                  <column datatype='string' name='nursery' ordinal='20' />
+                  <column datatype='string' name='higher' ordinal='21' />
+                  <column datatype='string' name='internet' ordinal='22' />
+                  <column datatype='string' name='romantic' ordinal='23' />
+                  <column datatype='integer' name='famrel' ordinal='24' />
+                  <column datatype='integer' name='freetime' ordinal='25' />
+                  <column datatype='integer' name='goout' ordinal='26' />
+                  <column datatype='integer' name='Dalc' ordinal='27' />
+                  <column datatype='integer' name='Walc' ordinal='28' />
+                  <column datatype='integer' name='health' ordinal='29' />
+                  <column datatype='integer' name='absences' ordinal='30' />
+                  <column datatype='integer' name='G1' ordinal='31' />
+                  <column datatype='integer' name='G2' ordinal='32' />
+                  <column datatype='integer' name='G3' ordinal='33' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+          <object caption='student-mat.csv1' id='student-mat.csv_AF575B5CC18C42D692290EC4795D441C'>
+            <properties context=''>
+              <relation connection='textscan.024hlks1ihe15u1a1dkbg1m2w2fu' name='student-mat.csv1' table='[student-mat#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='string' name='school' ordinal='1' />
+                  <column datatype='string' name='sex' ordinal='2' />
+                  <column datatype='integer' name='age' ordinal='3' />
+                  <column datatype='string' name='address' ordinal='4' />
+                  <column datatype='string' name='famsize' ordinal='5' />
+                  <column datatype='string' name='Pstatus' ordinal='6' />
+                  <column datatype='integer' name='Medu' ordinal='7' />
+                  <column datatype='integer' name='Fedu' ordinal='8' />
+                  <column datatype='string' name='Mjob' ordinal='9' />
+                  <column datatype='string' name='Fjob' ordinal='10' />
+                  <column datatype='string' name='reason' ordinal='11' />
+                  <column datatype='string' name='guardian' ordinal='12' />
+                  <column datatype='integer' name='traveltime' ordinal='13' />
+                  <column datatype='integer' name='studytime' ordinal='14' />
+                  <column datatype='integer' name='failures' ordinal='15' />
+                  <column datatype='string' name='schoolsup' ordinal='16' />
+                  <column datatype='string' name='famsup' ordinal='17' />
+                  <column datatype='string' name='paid' ordinal='18' />
+                  <column datatype='string' name='activities' ordinal='19' />
+                  <column datatype='string' name='nursery' ordinal='20' />
+                  <column datatype='string' name='higher' ordinal='21' />
+                  <column datatype='string' name='internet' ordinal='22' />
+                  <column datatype='string' name='romantic' ordinal='23' />
+                  <column datatype='integer' name='famrel' ordinal='24' />
+                  <column datatype='integer' name='freetime' ordinal='25' />
+                  <column datatype='integer' name='goout' ordinal='26' />
+                  <column datatype='integer' name='Dalc' ordinal='27' />
+                  <column datatype='integer' name='Walc' ordinal='28' />
+                  <column datatype='integer' name='health' ordinal='29' />
+                  <column datatype='integer' name='absences' ordinal='30' />
+                  <column datatype='integer' name='G1' ordinal='31' />
+                  <column datatype='integer' name='G2' ordinal='32' />
+                  <column datatype='integer' name='G3' ordinal='33' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+        <relationships>
+          <relationship>
+            <expression op='='>
+              <expression op='[G3]' />
+              <expression op='[G3 (student-mat.csv1)]' />
+            </expression>
+            <first-end-point object-id='student-mat.csv_8F036777A6314827B66AEF0EA4ED15BA' />
+            <second-end-point object-id='student-mat.csv_AF575B5CC18C42D692290EC4795D441C' />
+          </relationship>
+        </relationships>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <actions>
+    <action caption='Highlight 1 (generated) 1' name='[Action2_D43877F524364324928464B9E3151EAC]'>
+      <activation auto-clear='true' type='on-select' />
+      <source type='sheet' worksheet='Failures Vs Medu and Fedu' />
+      <command command='tsc:brush'>
+        <param name='field-captions' value='Measure Names' />
+        <param name='target' value='Failures Vs Medu and Fedu' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Failures Vs Medu and Fedu'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Number of Failures VS Mother and Father Education</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='student-mat' name='federated.0q95elm0oldndg1bdef8y13a8xjx' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0q95elm0oldndg1bdef8y13a8xjx'>
+            <column datatype='integer' name='[Fedu]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[G3]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Medu]' role='measure' type='quantitative' />
+            <column-instance column='[Fedu]' derivation='Avg' name='[avg:Fedu:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Medu]' derivation='Avg' name='[avg:Medu:qk]' pivot='key' type='quantitative' />
+            <column caption='Failures' datatype='integer' name='[failures]' role='measure' type='quantitative' />
+            <column-instance column='[G3]' derivation='None' name='[none:G3:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[failures]' derivation='None' name='[none:failures:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0q95elm0oldndg1bdef8y13a8xjx].[none:G3:ok]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:G3:ok]' />
+              <groupfilter function='member' level='[none:G3:ok]' member='4' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0q95elm0oldndg1bdef8y13a8xjx].[none:G3:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0q95elm0oldndg1bdef8y13a8xjx].[avg:Medu:qk]' field-type='quantitative' reverse='true' scope='cols' type='space' />
+            <format attr='title' class='0' field='[federated.0q95elm0oldndg1bdef8y13a8xjx].[avg:Medu:qk]' scope='cols' value='Avg. Mother Education' />
+            <encoding attr='space' class='0' field='[federated.0q95elm0oldndg1bdef8y13a8xjx].[avg:Fedu:qk]' field-type='quantitative' max='3.0' min='0.0' range-type='fixed' scope='cols' type='space' />
+            <format attr='title' class='0' field='[federated.0q95elm0oldndg1bdef8y13a8xjx].[avg:Fedu:qk]' scope='cols' value='Avg. Father Education' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0q95elm0oldndg1bdef8y13a8xjx].[avg:Medu:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.94453036785125732' />
+                <format attr='mark-color' value='#8273d7' />
+                <format attr='mark-transparency' value='226' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0q95elm0oldndg1bdef8y13a8xjx].[avg:Fedu:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.94453036785125732' />
+                <format attr='mark-color' value='#e15759' />
+                <format attr='mark-transparency' value='201' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0q95elm0oldndg1bdef8y13a8xjx].[none:failures:qk]</rows>
+        <cols>([federated.0q95elm0oldndg1bdef8y13a8xjx].[avg:Medu:qk] + [federated.0q95elm0oldndg1bdef8y13a8xjx].[avg:Fedu:qk])</cols>
+      </table>
+      <simple-id uuid='{47BF36A7-5C7E-4499-BBC0-FD9B1A980ED0}' />
+    </worksheet>
+    <worksheet name='Medu and Fedu VS GPA'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Grade VS Mother and Father Education</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='student-mat' name='federated.0q95elm0oldndg1bdef8y13a8xjx' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0q95elm0oldndg1bdef8y13a8xjx'>
+            <column datatype='integer' name='[Fedu]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[G3]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Medu]' role='measure' type='quantitative' />
+            <column-instance column='[Fedu]' derivation='Avg' name='[avg:Fedu:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Medu]' derivation='Avg' name='[avg:Medu:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[G3]' derivation='None' name='[none:G3:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[G3]' derivation='None' name='[none:G3:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0q95elm0oldndg1bdef8y13a8xjx].[none:G3:ok]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:G3:ok]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[none:G3:ok]' member='0' />
+                <groupfilter function='member' level='[none:G3:ok]' member='4' />
+                <groupfilter function='member' level='[none:G3:ok]' member='17' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0q95elm0oldndg1bdef8y13a8xjx].[none:G3:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0q95elm0oldndg1bdef8y13a8xjx].[avg:Fedu:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+            <format attr='title' class='0' field='[federated.0q95elm0oldndg1bdef8y13a8xjx].[none:G3:qk]' scope='cols' value='Grade' />
+            <format attr='title' class='0' field='[federated.0q95elm0oldndg1bdef8y13a8xjx].[avg:Medu:qk]' scope='rows' value='Avg. Mother Education (Purple)' />
+            <format attr='title' class='0' field='[federated.0q95elm0oldndg1bdef8y13a8xjx].[avg:Fedu:qk]' scope='rows' value='Avg. Father Education (Pink)' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.0q95elm0oldndg1bdef8y13a8xjx].[:Measure Names]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.9890055656433105' />
+                <format attr='mark-color' value='#f28e2b' />
+                <format attr='mark-transparency' value='165' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0q95elm0oldndg1bdef8y13a8xjx].[avg:Medu:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.0q95elm0oldndg1bdef8y13a8xjx].[:Measure Names]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.3073480129241943' />
+                <format attr='mark-color' value='#f28e2b' />
+                <format attr='mark-transparency' value='165' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0q95elm0oldndg1bdef8y13a8xjx].[avg:Fedu:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.0q95elm0oldndg1bdef8y13a8xjx].[:Measure Names]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.3733149766921997' />
+                <format attr='mark-color' value='#f28e2b' />
+                <format attr='mark-transparency' value='165' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0q95elm0oldndg1bdef8y13a8xjx].[avg:Medu:qk] + [federated.0q95elm0oldndg1bdef8y13a8xjx].[avg:Fedu:qk])</rows>
+        <cols>[federated.0q95elm0oldndg1bdef8y13a8xjx].[none:G3:qk]</cols>
+      </table>
+      <simple-id uuid='{AD1E60F1-CDB0-4E1D-B185-04731128B00A}' />
+    </worksheet>
+    <worksheet name='P. Education VS Academic Success'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='student-mat' name='federated.0q95elm0oldndg1bdef8y13a8xjx' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0q95elm0oldndg1bdef8y13a8xjx'>
+            <column caption='Pedu' datatype='real' name='[Calculation_5151836532397486081]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='([Medu] + [Fedu])/2' />
+            </column>
+            <column datatype='integer' name='[Fedu]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[G3]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Medu]' role='measure' type='quantitative' />
+            <column caption='Failures' datatype='integer' name='[failures]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_5151836532397486081]' derivation='None' name='[none:Calculation_5151836532397486081:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[G3]' derivation='Sum' name='[sum:G3:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[failures]' derivation='Sum' name='[sum:failures:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0q95elm0oldndg1bdef8y13a8xjx].[none:Calculation_5151836532397486081:qk]' field-type='quantitative' major-origin='0.0' major-spacing='0.5' minor-origin='0.0' minor-show='false' minor-spacing='0.10000000000000001' scope='rows' type='space' />
+            <format attr='title' class='0' field='[federated.0q95elm0oldndg1bdef8y13a8xjx].[none:Calculation_5151836532397486081:qk]' scope='rows' value='Parental Education' />
+            <format attr='title' class='0' field='[federated.0q95elm0oldndg1bdef8y13a8xjx].[sum:G3:qk]' scope='cols' value='Failures (Pink)' />
+            <encoding attr='space' class='0' field='[federated.0q95elm0oldndg1bdef8y13a8xjx].[sum:failures:qk]' field-type='quantitative' fold='true' scope='cols' type='space' />
+            <format attr='title' class='0' field='[federated.0q95elm0oldndg1bdef8y13a8xjx].[sum:failures:qk]' scope='cols' value='Grade (Purple)' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.0q95elm0oldndg1bdef8y13a8xjx].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0q95elm0oldndg1bdef8y13a8xjx].[sum:G3:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.0q95elm0oldndg1bdef8y13a8xjx].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1' />
+                <format attr='mark-color' value='#59a14f' />
+                <format attr='mark-transparency' value='160' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0q95elm0oldndg1bdef8y13a8xjx].[sum:failures:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.0q95elm0oldndg1bdef8y13a8xjx].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1' />
+                <format attr='mark-color' value='#f28e2b' />
+                <format attr='mark-transparency' value='165' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0q95elm0oldndg1bdef8y13a8xjx].[none:Calculation_5151836532397486081:qk]</rows>
+        <cols>([federated.0q95elm0oldndg1bdef8y13a8xjx].[sum:G3:qk] + [federated.0q95elm0oldndg1bdef8y13a8xjx].[sum:failures:qk])</cols>
+      </table>
+      <simple-id uuid='{F9FCA2B6-0EDF-49D1-870A-0BCB433E4944}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style>
+        <style-rule element='table'>
+          <format attr='background-color' value='#00000000' />
+        </style-rule>
+        <style-rule element='dash-title'>
+          <format attr='background-color' value='#dac8f3' />
+        </style-rule>
+        <style-rule element='dash-subtitle'>
+          <format attr='background-color' value='#dac8f36f' />
+        </style-rule>
+      </style>
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='100000' id='6' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='97878' id='38' param='vert' type-v2='layout-flow' w='98666' x='667' y='1061'>
+            <zone h='97878' id='9' param='horz' type-v2='layout-flow' w='98666' x='667' y='1061'>
+              <zone h='97878' id='7' type-v2='layout-basic' w='78916' x='667' y='1061'>
+                <zone h='25637' id='16' type-v2='empty' w='39458' x='667' y='1061'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='72241' id='5' name='P. Education VS Academic Success' w='39458' x='667' y='26698'>
+                  <layout-cache minwidth='157' type-h='fixed' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='52200' id='23' name='Medu and Fedu VS GPA' w='39458' x='40125' y='46739'>
+                  <layout-cache minwidth='212' type-h='fixed' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='45678' id='39' name='Failures Vs Medu and Fedu' w='39458' x='40125' y='1061'>
+                  <layout-cache minwidth='247' type-h='fixed' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone fixed-size='237' h='97878' id='8' is-fixed='true' param='vert' type-v2='layout-flow' w='19750' x='79583' y='1061'>
+                <zone h='8753' id='10' name='P. Education VS Academic Success' pane-specification-id='1' param='[federated.0q95elm0oldndg1bdef8y13a8xjx].[:Measure Names]' type-v2='color' w='19750' x='79583' y='1061'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='5570' id='14' type-v2='text' w='19750' x='79583' y='9814'>
+                  <formatted-text>
+                    <run>The Relationship between Parental Education Status and Academic Success</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone forceUpdate='true' h='23920' id='17' type-v2='text' w='38090' x='735' y='1235'>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontsize='18'>The Relationship between Parental Education Status and Academic Success</run>
+          </formatted-text>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1100' minheight='1100' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='47' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97432' id='46' param='vert' type-v2='layout-flow' w='98666' x='667' y='1284'>
+                <zone forceUpdate='true' h='23920' id='17' type-v2='text' w='38090' x='735' y='1235'>
+                  <formatted-text>
+                    <run bold='true' fontalignment='1' fontsize='18'>The Relationship between Parental Education Status and Academic Success</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='45472' id='39' is-fixed='true' name='Failures Vs Medu and Fedu' w='39458' x='40125' y='1284'>
+                  <layout-cache minwidth='247' type-h='fixed' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='6741' id='14' type-v2='text' w='19750' x='79583' y='11878'>
+                  <formatted-text>
+                    <run>The Relationship between Parental Education Status and Academic Success</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='68219' id='5' is-fixed='true' name='P. Education VS Academic Success' w='39458' x='667' y='30497'>
+                  <layout-cache minwidth='157' type-h='fixed' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='10594' id='10' name='P. Education VS Academic Success' pane-specification-id='1' param='[federated.0q95elm0oldndg1bdef8y13a8xjx].[:Measure Names]' type-v2='color' w='19750' x='79583' y='1284'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='51960' id='23' is-fixed='true' name='Medu and Fedu VS GPA' w='39458' x='40125' y='46756'>
+                  <layout-cache minwidth='212' type-h='fixed' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{94C3AD3D-646A-4754-A223-156D0342A81F}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='P. Education VS Academic Success'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.0q95elm0oldndg1bdef8y13a8xjx].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{2D9001FF-6FDF-4015-8A3F-636E58947547}' />
+    </window>
+    <window class='worksheet' name='Failures Vs Medu and Fedu'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{E004BD5C-F578-4F0C-A5F8-60917102A8D8}' />
+    </window>
+    <window class='worksheet' name='Medu and Fedu VS GPA'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.0q95elm0oldndg1bdef8y13a8xjx].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{57E93A14-8DA3-41C0-95C0-245B547DFAD1}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Failures Vs Medu and Fedu'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Medu and Fedu VS GPA'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='P. Education VS Academic Success'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='23' />
+      <simple-id uuid='{9FBC463D-3A7A-45A8-9172-A9EC206AB62A}' />
+    </window>
+  </windows>
+</workbook>
