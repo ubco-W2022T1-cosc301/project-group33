@@ -1,4 +1,4 @@
-# Group 33 - - I'm not as think as you drunk I am
+# Group 33 - - High School Never Ends
 
 **Please remember to update this section**
 
