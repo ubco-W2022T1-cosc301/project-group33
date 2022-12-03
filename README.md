@@ -10,7 +10,7 @@ Details for Milestone are available on Canvas (left sidebar, Course Project).
 
 ## Describe your topic/interest in about 150-200 words
 
-This dataset is incredibly multifaceted, allowing each of us to find different points of interest within the same dataset. We were collectively interested due to its insight on adolescent experience within the highschool environment. This dataset contains general information, like basic demographics, along with very interesting information, such as academic measures, alcohol consumption, and parental information. These columns brought a lot of excitement and curiousity to our group. One member is very interested in looking at how the education of parents influences children's academics. Another member will focus on interesting column intersections, such as alcohol consumption, social and familial relationships, and academics. Our final member wants to specifically look at alcohol consumption's influence on grades. All of our research questions at least partially highlight what influences academics in high school. Creating a user-facing dashboard for this dataset would be a smart decision. This is because the data contains so much information, that anyone could find a perspective that they're interested in exploring. High school is an almost universal experience, adding relatability to this dataset.
+This dataset is incredibly multifaceted, allowing each of us to find different points of interest within the same dataset. We were collectively interested due to its insight on adolescent experience within the highschool environment. This dataset contains general information, like basic demographics, along with very interesting information, such as academic measures, alcohol consumption, and parental information. These columns brought a lot of excitement and curiousity to our group. One member is very interested in looking at how the education of parents influences children's academics. Another member will focus on interesting column intersections, such as alcohol consumption, social and familial relationships, and academics. Our final member wants to specifically look at alcohol consumption's influence on grades. All of our research questions at least partially highlight what influences academics in high school. Creating a user-facing dashboard for this dataset would be a smart decision. This is because the data contains so much information, that anyone could find a perspective that they're interested in exploring. High school is a universal experience, adding relatability to this dataset.
  
 
 **Please remember to update this section**
@@ -37,8 +37,6 @@ This dataset, called Student Alcohol Consumption was created by UCI Machine Lear
 
 **Please remember to update this section and remove the test image!**
 
-{You can use this area for any images you want to include}
-
 ## References
 
 **Please remember to update this section**
@@ -46,4 +44,4 @@ This dataset, called Student Alcohol Consumption was created by UCI Machine Lear
 {Add your credits, acknowledgements, references, or citations **including a link to the data source** here}
 
 UCI MACHINE LEARNING. (2016;January). Student Alcohol 
-    Consumption, 2. Retrieved October 10th 2022 from https://www.kaggle com/datasets/uciml/student-alcohol-consumption.
+    Consumption, 2. Retrieved October 10th 2022 from https://www.kaggle.com/datasets/uciml/student-alcohol-consumption.
