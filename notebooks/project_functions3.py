@@ -12,7 +12,7 @@ def load_and_process(url_or_path):
     )
     
     df3 = (
-        df2.drop(['sex','school','address','Medu','Fedu','Mjob','Fjob','reason','guardian.x','guardian.y','traveltime.x','traveltime.y','schoolsup.x','schoolsup.y','paid.x','paid.y','famsup.x','famsup.y','nursery','health.x','health.y','higher.x','higher.y','Dalc.y','Walc.y','famrel.y','freetime.y','absences.y','studytime.y','romantic.y','goout.y','failures.y','activities.y','studytime.x'],axis=1)
+        df2.drop(['sex','school','address','Medu','Fedu','Mjob','Fjob','reason','guardian.x','guardian.y','traveltime.x','traveltime.y','schoolsup.x','schoolsup.y','paid.x','paid.y','famsup.x','famsup.y','nursery','health.x','health.y','higher.x','higher.y','Dalc.y','Walc.y','famrel.y','freetime.y','absences.y','studytime.y','romantic.y','goout.y','failures.y','activities.y','studytime.x','G1.x','G1.y','G2.x','G2.y','G3.x','G3.y'],axis=1)
     )
 
     return df3
