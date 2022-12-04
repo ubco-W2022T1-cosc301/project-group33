@@ -4,32 +4,20 @@
 
 ## Introduction
 
-
-
 Our project looks at influences of the high school adolescent experience. Adolescence is experienced by everyone, and we knew that the data in this dataset could offer answers to questions that we've had during high school or in post secondary. This project is important as it details information on academic influences, alcohol consumption, relationships, and other relatable aspects that all youth are influenced by.
-
 
 
 
 ## Exploratory Data Analysis
 
-
-
-A summary of the highlights of your EDA, where you can show some visualizations of the exploratory data analysis your group did.
-
-
-
 ![Heatmap](images/Heatmap.png)
-
-![pairplot](images/pairplotrel.png)
-
-This pairplot comprises of data we used for data wrangling.
-
-
 
 This heatmap offers an insight into the correlations within this dataset. It was used to help find interesting relationships between variables that our group was interested in.
 
 
+![pairplot](images/pairplotrel.png)
+
+This pairplot comprises of data we used for data wrangling.
 
 
 
@@ -49,7 +37,7 @@ For each period I compared the weekday and weekend alcohol consumption to studen
 
 
 
-As we can see it is not a negative linear  graph but tuns out it is a normal curve. At extremes of succession, there seems to be close to zero alc consumption (for both weekdays and weekends) and around the middle we get the peak amount of acc consumption.
+As we can see it is not a negative linear  graph but turns out it is a normal curve. At extremes of succession, there seems to be close to zero alc consumption (for both weekdays and weekends) and around the middle we get the peak amount of acc consumption.
 
 
 
@@ -104,25 +92,4 @@ For the complete analysis about the research questions, refer to the [jupyter no
 
 ## Summary/Conclusion
 
-
-
- A brief paragraph that highlights your key results and what you learned from doing this project.
-
- 
-
- Erem's key results and what you learned from doing this project:
-
-     - There does not seem a big correlation between alcohol consumption and student results. I initially predicted that there would be a negative correlation (giving a negative linear graph), however there was a normal curve. I believe that both alcohol consumtion and student percentile follow the normal curve and therefore dont end up affecting eachother in a noticeable way, having most students near the middle for both.
-
-
- Madisyn's key results and what you learned from doing this project:
-
-    Key results: yes, parental education status influences their children's academic success.   
-
- I learned a lot about adolescent experience through this project. There are so many factors preventing high school children from succeeding, whether that be alcoholic pressure, family, or romantic relationships. Youth need more support to be able to thrive within the highschool system.
-
- Jyo's key results and what you learned from doing this project: Conclusion: There is direct correlation between alcohol consumed, average grades and interpersonal relations of students. 
-
-From this project I have inferred that social lives of students heavily impact their drinking habits. WHich in turn impacts their grades. I deduce that three possibly cause the other. This highlights the shortcommings of the adults providing for the students.
-
-
+ Collectively, our group learned lots about the influences of the high school adolescent experience. No big correlation was found between alcohol consumption and student results, showing that they don't influence one another. However, parental education was found to influence child academic success. From this project, it was also found that social lives of students heavily impact their drinking habits, which in turn impacts their grades. This highlights the shortcommings of the adults providing for the students. There are so many factors preventing high school children from succeeding, whether that be alcoholic pressure, family, or romantic relationships. Overall, this project showed us that youth need more support to be able to thrive within the highschool system. 
